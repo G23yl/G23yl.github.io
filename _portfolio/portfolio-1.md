@@ -1,7 +1,14 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Go-Cloud"
+excerpt: "A cloud disk project based on golang."
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+**Go Cloud** is a self-developed cloud storage project aimed at providing users with a cloud based file storage repository. **Go Cloud** allows users to **view files** in the repository at any time, **download and upload local files**, and **share files** in the repository for other users to download through sharing links.
+
+Feature
+===
+
+1. **Safe**: **Go Cloud** has implemented a personalized file repository, allowing users to confidently upload important files to the cloud without worrying about data breaches；
+2. **Quick**：When uploading and downloading files, **Go Cloud** adopts **large file sharding** technology, which can effectively accelerate the upload and download of large files and reduce user waiting time；
+3. **Simple**：The UI design of the **Go Cloud** page is simple yet not simplistic. Through clear and easy to understand graphical operations, users can easily get started without extra learning. Moreover, **Go Cloud** does not have a VIP mechanism, and users can enjoy all the functions of the cloud storage without recharging。

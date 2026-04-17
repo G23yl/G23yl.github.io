@@ -1,0 +1,76 @@
+/* ==========================================================================
+   CLAUDE THEME - DARK VERSION
+   ========================================================================== */
+
+/* Color codes used for the theme */
+$primary-color              : #D89A69;
+$dark-primary-color         : #B87444;
+$darker-primary-color       : #8A5635;
+$light-primary-color        : #E7C5A8;
+$background                 : #1C1713;
+$background-light           : #2A221C;
+$background-lighter         : #3A3028;
+$text                       : #F3E7D8;
+$text-muted                 : #C7B29E;
+$link                       : #E0A06E;
+$link-hover                 : #F0BB8D;
+$link-visited               : #C98B60;
+$footer                     : #15110E;
+$border                     : #5A4A3F;
+$border-dark                : #342B24;
+$code-bg                    : #241D18;
+$selection-bg               : #6B4A35;
+
+/* Color codes used for the site */
+$danger-color               : #D27C6A;
+$info-color                 : #B59374;
+$notice-color               : #B19A86;
+$success-color              : #8BAA73;
+$warning-color              : #D59A63;
+
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(255, 255, 255, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Dark theme for the site */
+html[data-theme="dark"] {
+    --global-base-color                 : #{$primary-color};
+    --global-bg-color                   : #{$background};
+    --global-footer-bg-color            : #{$footer};
+    --global-border-color               : #{$border};
+    --global-dark-border-color          : #{$border-dark};
+    --global-code-background-color      : #{$code-bg};
+    --global-code-text-color            : #{$text};
+    --global-fig-caption-color          : #{$text-muted};
+    --global-link-color                 : #{$link};
+    --global-link-color-hover           : #{$link-hover};
+    --global-link-color-visited         : #{$link-visited};
+    --global-masthead-link-color        : #{$text};
+    --global-masthead-link-color-hover  : #{$link-hover};
+    --global-text-color                 : #{$text};
+    --global-text-color-light           : #{$text-muted};
+    --global-thead-color                : #{$background-lighter};
+    --global-selection-bg-color         : #{$selection-bg};
+    --global-selection-text-color       : #{$text};
+}
+
+html[data-theme="dark"] ::selection {
+    background-color: var(--global-selection-bg-color);
+    color: var(--global-selection-text-color);
+}
+
+html[data-theme="dark"] ::-moz-selection {
+    background-color: var(--global-selection-bg-color);
+    color: var(--global-selection-text-color);
+}
+
+html[data-theme="dark"] .page__footer-follow .social-icons i,
+html[data-theme="dark"] .page__footer-follow .social-icons .svg-inline--fa {
+    color: inherit;
+}
